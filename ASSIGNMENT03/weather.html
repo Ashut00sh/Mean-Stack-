@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <!--link font awesome site-->
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/cloud-sun-rain?style=solid"
+    />
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <div
+        class="cont"
+        style="display: flex; flex-direction: column; height: 100vh;"
+      >
+        <div style="flex: 2;">1</div>
+        <div style="flex: 6; display: flex; flex-direction: row;">
+          <div style="flex: 2;">11</div>
+          <div
+            style="
+              flex: 6;
+              background: crimson;
+
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <div style="flex: 1;">
+              
+              <img src="rain.svg" class="icon" />
+              <div id="parentid">
+                <div>
+                  city weather
+                </div>
+               
+              </div>
+            </div>
+              <div
+                style="
+                  flex: 1;
+                  background: chocolate;
+                  height: 400px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <input type="text" placeholder="select city" id="city" />
+                <button onclick="search()">submit</button>
+              </div>
+            </div>
+            <div style="flex: 2;">33</div>
+          </div>
+          <div style="flex: 2;">3</div>
+        </div>
+        <!--comment 002-->
+      </div>
+    </div>
+  </body>
+</html>
